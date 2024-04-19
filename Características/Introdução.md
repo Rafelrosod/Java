@@ -1,5 +1,4 @@
 ## Sobre o Java
-**_________________________________________________________**
 **J**ava é uma linguagem de programação, criada em 1995.
 
 É usado para:
