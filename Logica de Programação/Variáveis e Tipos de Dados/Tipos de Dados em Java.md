@@ -15,7 +15,7 @@
 **Conversão implícita:** Ocorre automaticamente quando não há perda de dados, por exemplo, de int para double.
 **Conversão explícita (casting):** Requer uma operação de casting quando há possibilidade de perda de dados, por exemplo, de double para int.
 
-~~~Java
+~~~ Java
 double valorDouble = 10.5;
 int valorInteiro = (int) valorDouble; // Casting explícito
 ~~~
@@ -31,7 +31,7 @@ Exemplos:
 * String nome = "Maria"; (literal string)
 
 ##### Constantes:
-~~~Java
+~~~ Java
 final double PI = 3,14;
 ~~~
 
@@ -39,7 +39,7 @@ final double PI = 3,14;
 * Permitem a criação de classes, interfaces e métodos que operam com tipos específicos, mas sem especificar esses tipos até a criação da instância.
 
 Exemplo:
-~~~Java
+~~~ Java
 ArrayList<String> listaDeStrings = new ArrayList<String>();
 ~~~
 
