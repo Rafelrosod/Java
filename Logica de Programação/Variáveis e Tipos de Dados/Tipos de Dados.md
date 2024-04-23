@@ -10,16 +10,6 @@
    * Array: Coleção de elementos do mesmo tipo.
    * Classes e Objetos: Instâncias de classes definidas pelo usuário.
 
-##### Conversão de Tipos (Casting)
-
-**Conversão implícita:** Ocorre automaticamente quando não há perda de dados, por exemplo, de int para double.
-**Conversão explícita (casting):** Requer uma operação de casting quando há possibilidade de perda de dados, por exemplo, de double para int.
-
-~~~ Java
-double valorDouble = 10.5;
-int valorInteiro = (int) valorDouble; // Casting explícito
-~~~
-
 ##### Literais:
 Um literal é uma representação fixa de um valor no código-fonte.
 
