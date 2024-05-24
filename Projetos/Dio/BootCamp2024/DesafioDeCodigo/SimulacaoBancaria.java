@@ -21,7 +21,7 @@ public class SimulacaoBancaria {
                             saldo -= valorSaque;
                             System.out.println("Saldo atual: " + saldo);
                         } else {
-                            System.out.println("Saldo insuficiente");
+                            System.out.println("Saldo insuficiente.");
                         }
                         break;
                     case 3:
