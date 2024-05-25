@@ -1,4 +1,4 @@
-package Projetos.Dio.BootCamp2023.Projetos;
+package Projetos.Dio.BootCampJava.Projetos;
 
 public class ValidaProcessoSeletivo {
     

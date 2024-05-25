@@ -1,4 +1,4 @@
-package Projetos.Dio.BootCamp2024.DesafioDeCodigo;
+package Projetos.Dio.BootCamp2024.DesafiosDeCodigo;
 
 import java.util.ArrayList;
 import java.util.List;
