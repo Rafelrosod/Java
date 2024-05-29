@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class variados {
     public static void main(String[] args) {
-        retornaListaMaiorMenor();
     }
     
     public static String retornaNome(){
