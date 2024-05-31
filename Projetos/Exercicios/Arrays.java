@@ -1,10 +1,6 @@
 public class Arrays {
     public static void main(String[] args) {
-        printaIndiceArray();
-        somaValoresArray();
-        listaArrays();
-        mediaValores();
-        multiArray();
+        listandoArray();
     }
 
 public static void printaIndiceArray(){
@@ -55,5 +51,21 @@ public static void multiArray() {
         System.out.println(myNumbers[1][1]);
         //o primeiro array do print seleciona o array da lista de arrays, o segundo array, seleiona o indice do primeiro array selecionado
     
+}
+public static void listandoArray(){
+    int[] numeros = {5,2,9,4,7};
+    int aux;
+    for(int i = 0;i < numeros.length; i++){
+        for(int x = i; x < numeros.length; x++){
+            if(numeros[i] > numeros[x]){
+               aux = numeros[i];
+               numeros[i] = numeros[x];
+               numeros[x] = aux;
+            }
+        }
+    }
+    for(int j : numeros){
+        System.out.println(j);
+    }
 }
 }
