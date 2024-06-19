@@ -36,8 +36,6 @@ public class cadastro {
     public static void registrarCadastro(){
         try (Scanner scanner = new Scanner(System.in)) {
             System.out.println("Registrar Cadastro \n digite seu e-mail e senha: ");
-                String email = scanner.nextLine();
-                int senha = scanner.nextInt();
                 System.out.println("Usuário cadastrado com Sucesso! ");
         }
     }
